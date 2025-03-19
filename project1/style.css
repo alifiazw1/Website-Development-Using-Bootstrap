@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size :2rem;
+    color : black;
+    font-family: "Pacifico", cursive;
+}
+
+.navbar-brand:hover{
+    color : black;
+}
+
+.nav-link{
+    margin-right :10px;
+    margin-left:10px;
+    color : black;
+    font-family: "DM Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right : -35px;
+    font-family: "DM Sans", sans-serif;
+    border: 2px solid rgb(255,188,0);
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(255,188,0);
+    color : white;
+    font-family: "DM Sans", sans-serif;
+    border-radius: 60px
+    font-weight: 700;
+}
+
+.main{
+    background: url(../static/Assets/image/shk.png)no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: 50%;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(209,105,0);
+}
+
+.btn1{
+    height:45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color: rgb(255,188,0);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+.btn1:hover{
+    background-color: rgb(231, 250, 61);
+    transition: 0.5s;
+}
+
+.img-fluid {
+    max-height: 150px; /* atau ukuran yang Anda inginkan */
+}
+
+.card:hover{
+    box-shadow: 10px 9px 32px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 9px 32px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 9px 32px 1px rgba(0,0,0,0.75);
+transition:0.5s;
+}
+
+img.img-fluid {
+    max-height: 300px; /* Atur sesuai dengan kebutuhan */
+    object-fit: cover; /* Untuk memastikan gambar memenuhi kontainer */
+}
+
